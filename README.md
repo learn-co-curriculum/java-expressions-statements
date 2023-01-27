@@ -12,10 +12,10 @@ and variables that evaluate to a single value that has a data type. An example
 of an expression is "5 + 2" or "3 < 1". These mathematical expressions describe
 a value. In this case, 5 + 2 describes 7 and 3 < 1 describes false.
 
-A **statement** in Java describes activities in a program. For example,
-declaring a variable and making an assignment to a variable is an example of a
-statement. If we take the mathematical expressions above and assign them to a
-variable, then it becomes a statement:
+A **statement** in Java describes activities in a program that are intended to
+change the state of the program. For example, declaring a variable and making an
+assignment to a variable is an example of a statement. If we take the
+expressions above and assign them to a variable, then it becomes a statement:
 
 ```java
 // These are statements
@@ -74,6 +74,7 @@ int d = 4;
   <p>Answer:<br><code>int</code> - The expression would evaluate to a <code>0</code>.</p>
 
   <p><code>d</code> is assigned to the value of 4 and <code>b</code> is assigned to the value of 2; and 4 % 2 is 0 since 2 goes into 4 an even number of times.</p>
+  <p>Reminder: The <code>%</code> operator results in the remainder value.</p>
 
 </details>
 
